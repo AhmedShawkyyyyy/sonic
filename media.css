@@ -92,9 +92,9 @@
   }
 }
 /* ##################################### */
-@media (min-width: 991px) and (max-width: 1054px) {
+@media (min-width: 991px) and (max-width: 1114px) {
   header nav {
-    width: 80%;
+    width: 90%;
     display: flex;
     justify-content: space-around;
   }
