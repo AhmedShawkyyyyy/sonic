@@ -1,0 +1,201 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: content-box;
+  background-color: #111;
+  font-family: "Bricolage Grotesque", sans-serif;
+}
+
+header nav {
+  width: 83%;
+  margin-top: 20px;
+  padding-bottom: 11px;
+  position: fixed;
+  top: 0;
+  left: 8%;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 5000;
+}
+header nav:after {
+  content: "";
+  position: absolute;
+  bottom: 1%;
+  width: 94%;
+  right: 3%;
+  border-bottom: solid #444;
+  opacity: 0.4000000059604645;
+}
+
+header nav .left {
+  width: 22.5%;
+  background-color: transparent;
+}
+header nav .left a button {
+  color: #faf9f6;
+  font-size: 33px;
+  font-weight: 700;
+  letter-spacing: -0.817px;
+  font-family: "Galano Grotesque Alt", sans-serif;
+  text-decoration: none;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  transition: 0.5s;
+}
+header nav .left a .nft:hover {
+  color: darkred;
+}
+header nav .left a button span {
+  color: darkred;
+}
+
+header nav .middle {
+  width: 50%;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+header nav .middle li {
+  color: #faf9f6;
+  font-weight: 500;
+  text-decoration: none;
+  float: left;
+  list-style-type: none;
+}
+
+header nav .middle li a {
+  color: #faf9f6;
+  font-weight: 500;
+  text-decoration: none;
+  transition: 0.5s;
+}
+header nav .middle li a:hover {
+  color: darkred;
+}
+
+header nav .right {
+  width: 13%;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+header nav .right a .sign {
+  color: #faf9f6;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: -0.817px;
+  font-family: "Galano Grotesque Alt", sans-serif;
+  text-decoration: none;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  transition: 0.5s;
+}
+header nav .right a .login {
+  border-radius: 100px;
+  background: darkred;
+  box-shadow: -3px 8px 24px 0px rgba(207, 45, 45, 0.33);
+  color: #fff;
+  font-style: normal;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.17px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+header nav .right a i {
+  display: none;
+}
+/* ############# content#################*/
+
+body .content {
+  margin: 100px auto;
+  width: 85%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  /* box-shadow: 0px -169px 223px -113px darkred; */
+  background-color: inherit;
+}
+
+body .content .card1 {
+  width: 30%;
+  margin-top: 20px;
+}
+
+body .content .card1 h1 {
+  color: #faf9f6;
+  font-size: 58px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 114.5%;
+  letter-spacing: -0.29px;
+  font-family: "Bricolage Grotesque", sans-serif;
+}
+body .content .card1 .s2 {
+  color: darkred;
+}
+
+body .content .card1 p {
+  color: #faf9f6;
+  font-size: 21px;
+  font-family: "Archivo", sans-serif;
+  font-style: normal;
+  font-weight: 450;
+  line-height: 173%;
+  letter-spacing: -0.22px;
+}
+
+body .content .card1 button {
+  background-color: darkred;
+  color: white;
+  border: none;
+  border-radius: 100px;
+  font-size: 17px;
+  font-family: "Bricolage Grotesque", sans-serif;
+  font-weight: 600;
+  letter-spacing: 0.17px;
+  width: 210px;
+  height: 60px;
+  cursor: pointer;
+}
+
+/* ###########content-card2####### */
+body .content .card2 {
+  width: 30%;
+  margin-top: 20px;
+  background-image: url(./IMG/pngegg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 300px;
+  height: 540px;
+}
+
+body .content .card2 .content img {
+  width: auto;
+}
+/* ##############logo################# */
+.logo {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s;
+  background: linear-gradient(145deg, #23282c, #1e2125);
+  box-shadow: 17px 17px 17px#1a1d20, -17px -17px 23px #282d32,
+    inset 5px 5px 4px #1e2226, inset -5px -5px 4px #24282c;
+}
