@@ -111,6 +111,7 @@ header nav .right a .login {
   font-style: normal;
   font-size: 15px;
   /* font-weight: 300; */
+  text-decoration: none;
   line-height: normal;
   letter-spacing: 0.17px;
   cursor: pointer;
