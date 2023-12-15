@@ -87,6 +87,7 @@ header nav .right {
 }
 header nav .right a {
   width: 50%;
+  text-decoration: none;
 }
 
 header nav .right a .sign {
