@@ -84,6 +84,7 @@ header nav .right {
   flex-wrap: nowrap;
   justify-content: space-evenly;
   align-items: center;
+  text-decoration: none;
 }
 header nav .right a {
   width: 50%;
