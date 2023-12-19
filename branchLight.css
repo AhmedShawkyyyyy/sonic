@@ -2,12 +2,13 @@ body {
   padding: 0;
   margin: 0;
   box-sizing: content-box;
-  background-color: #111;
+  background: #f3ffff;
   font-family: "Bricolage Grotesque", sans-serif;
 }
 
 header nav {
   width: 83%;
+  background-color: #f3ffff;
   margin-top: 10px;
   padding-bottom: 11px;
   position: fixed;
@@ -18,7 +19,6 @@ header nav {
   justify-content: space-between;
   align-items: center;
   z-index: 5000;
-  background-color: #111;
 }
 header nav:after {
   content: "";
@@ -26,7 +26,7 @@ header nav:after {
   bottom: 1%;
   width: 94%;
   right: 3%;
-  border-bottom: solid #444;
+  border-bottom: solid #dce4ff;
   opacity: 0.4000000059604645;
 }
 
@@ -35,7 +35,7 @@ header nav .left {
   background-color: transparent;
 }
 header nav .left a button {
-  color: #faf9f6;
+  color: #0f0028;
   font-size: 33px;
   font-weight: 700;
   letter-spacing: -0.817px;
@@ -50,7 +50,7 @@ header nav .left a .nft:hover {
   color: darkred;
 }
 header nav .left a button span {
-  color: darkred;
+  color: #2dcacf;
 }
 
 header nav .middle {
@@ -62,7 +62,7 @@ header nav .middle {
 }
 
 header nav .middle li {
-  color: #faf9f6;
+  /* color: #faf9f6; */
   font-weight: 500;
   text-decoration: none;
   float: left;
@@ -70,7 +70,7 @@ header nav .middle li {
 }
 
 header nav .middle li a {
-  color: #faf9f6;
+  color: black;
   font-weight: 500;
   text-decoration: none;
   transition: 0.5s;
@@ -93,7 +93,7 @@ header nav .right a {
 }
 
 header nav .right a .sign {
-  color: #faf9f6;
+  color: #0f0028;
   font-size: 20px;
   font-weight: 400;
   letter-spacing: -0.817px;
@@ -108,8 +108,9 @@ header nav .right a .login {
   height: 35px;
   width: 57px;
   border-radius: 100px;
-  background: darkred;
-  box-shadow: -3px 8px 24px 0px rgba(207, 45, 45, 0.33);
+  background: #2dcacf;
+  border: none;
+  box-shadow: -3px 8px 24px 0px rgba(45, 202, 207, 0.33);
   color: #fff;
   font-style: normal;
   font-size: 15px;
@@ -135,7 +136,6 @@ body .content {
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  /* box-shadow: 0px -169px 223px -113px darkred; */
   background-color: transparent;
 }
 
@@ -145,7 +145,7 @@ body .content .card1 {
 }
 
 body .content .card1 h1 {
-  color: #faf9f6;
+  color: #0f0028;
   font-size: 58px;
   font-style: normal;
   font-weight: 700;
@@ -154,11 +154,11 @@ body .content .card1 h1 {
   font-family: "Bricolage Grotesque", sans-serif;
 }
 body .content .card1 .s2 {
-  color: darkred;
+  color: #2dcacf;
 }
 
 body .content .card1 p {
-  color: #faf9f6;
+  color: #0f0028;
   font-size: 21px;
   font-family: "Archivo", sans-serif;
   font-style: normal;
@@ -168,7 +168,7 @@ body .content .card1 p {
 }
 
 body .content .card1 button {
-  background-color: darkred;
+  background-color: #2dcacf;
   color: white;
   border: none;
   border-radius: 100px;
@@ -185,7 +185,7 @@ body .content .card1 button {
 body .content .card2 {
   width: 30%;
   margin-top: 20px;
-  background-image: url(./IMG/pngegg.png);
+  background-image: url(./IMG/light_image.png);
   background-size: cover;
   background-repeat: no-repeat;
   width: 300px;
@@ -202,7 +202,7 @@ body .content .shadow1 {
   height: 404.031px;
   border-radius: 304.031px;
   opacity: 0.15000000596046448;
-  background: darkred;
+  background: #2dcacf;
   filter: blur(130px);
   z-index: -10000;
 }
@@ -214,11 +214,10 @@ body .content .shadow2 {
   height: 404.031px;
   border-radius: 304.031px;
   opacity: 0.15000000596046448;
-  background: darkred;
+  background: #2dcacf;
   filter: blur(130px);
   z-index: -10000;
 }
-
 /* ##############logo################# */
 .logo i {
   position: fixed;
@@ -226,20 +225,21 @@ body .content .shadow2 {
   right: 20px;
   width: 70px;
   height: 70px;
-  border-radius: 50%;
   font-size: 35px;
-  color: #fff;
-  transform: rotate(-11deg);
+  color: #262b2e;
+  border-radius: 50%;
   display: flex;
   flex-wrap: nowrap;
   justify-content: center;
   align-items: center;
   transition: 0.5s;
-  background: linear-gradient(145deg, #23282c, #1e2125);
-  box-shadow: 17px 17px 23px #1a1d20, -17px -17px 23px #282d32,
-    inset 5px 5px 4px #1e2226, inset -5px -5px 4px #24282c;
+  box-shadow: 7px 7px 15px -10px #bbcfda, -4px -4px 13px #ffffff,
+    inset 7px 7px 3px rgba(209, 217, 230, 0.35),
+    inset -11px -11px 3px rgba(255, 255, 255, 0.3);
   transition: 0.5s;
+  transform: rotate(360deg);
 }
+
 .dance {
   animation-name: change;
   animation-duration: 1s;

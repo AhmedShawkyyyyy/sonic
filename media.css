@@ -3,9 +3,10 @@
     width: 100%;
   }
   header nav {
-    width: 100%;
+    width: 80%;
     display: flex;
-    justify-content: space-around;
+    left: 0%;
+    align-items: center;
   }
   header nav .left {
     width: 30%;
@@ -13,13 +14,11 @@
   header nav .middle {
     display: none;
   }
-  header nav .right {
-    width: 70%;
-    display: flex;
-    flex-wrap: nowrap;
-    align-items: center;
-    justify-content: flex-start;
+  header nav .right a .sign,
+  header nav .right a .login {
+    display: none;
   }
+
   header nav .right a .fa-solid {
     display: inline-block;
     font-size: 28px;
@@ -57,7 +56,8 @@
   header nav {
     width: 80%;
     display: flex;
-    justify-content: space-around;
+    left: 0%;
+    align-items: center;
   }
   header nav .left {
     width: 30%;
@@ -65,13 +65,18 @@
   header nav .middle {
     display: none;
   }
-  header nav .right {
+  /* header nav .right {
     width: 50%;
     display: flex;
     flex-wrap: nowrap;
     align-items: center;
     justify-content: space-between;
+  } */
+  header nav .right a .sign,
+  header nav .right a .login {
+    display: none;
   }
+
   header nav .right a .fa-solid {
     display: inline-block;
     font-size: 28px;
@@ -103,7 +108,8 @@
   header nav {
     width: 80%;
     display: flex;
-    justify-content: space-around;
+    left: 8%;
+    align-items: center;
   }
   header nav .left {
     width: 30%;
@@ -111,12 +117,9 @@
   header nav .middle {
     display: none;
   }
-  header nav .right {
-    width: 70%;
-    display: flex;
-    flex-wrap: nowrap;
-    align-items: center;
-    justify-content: space-between;
+  header nav .right a .sign,
+  header nav .right a .login {
+    display: none;
   }
   header nav .right a .fa-solid {
     display: inline-block;
@@ -130,9 +133,9 @@
   body .content {
     display: flex;
     flex-wrap: nowrap;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    width: 95%;
+    width: 80%;
   }
   body .content .card1 {
     width: 45%;
