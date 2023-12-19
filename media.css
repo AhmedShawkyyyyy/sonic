@@ -3,7 +3,7 @@
     width: 100%;
   }
   header nav {
-    width: 80%;
+    width: 100%;
     display: flex;
     left: 0%;
     align-items: center;
@@ -13,6 +13,9 @@
   }
   header nav .middle {
     display: none;
+  }
+  header nav .right {
+    width: 55%;
   }
   header nav .right a .sign,
   header nav .right a .login {
@@ -54,7 +57,7 @@
 
 @media (min-width: 251px) and (max-width: 650px) {
   header nav {
-    width: 80%;
+    width: 100%;
     display: flex;
     left: 0%;
     align-items: center;
@@ -76,7 +79,9 @@
   header nav .right a .login {
     display: none;
   }
-
+  header nav .right {
+    width: 10%;
+  }
   header nav .right a .fa-solid {
     display: inline-block;
     font-size: 28px;
@@ -116,6 +121,9 @@
   }
   header nav .middle {
     display: none;
+  }
+  header nav .right {
+    width: 10%;
   }
   header nav .right a .sign,
   header nav .right a .login {
