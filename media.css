@@ -58,7 +58,7 @@
 
 @media (min-width: 251px) and (max-width: 650px) {
   header nav {
-    width: 78%;
+    width: 100%;
     display: flex;
     left: 0%;
     align-items: center;
