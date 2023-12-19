@@ -4,6 +4,8 @@ body {
   box-sizing: content-box;
   background-color: #111;
   font-family: "Bricolage Grotesque", sans-serif;
+  /* border: 5px solid white; */
+  overflow: hidden;
 }
 
 header nav {

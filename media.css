@@ -3,7 +3,7 @@
     width: 95%;
   }
   header nav {
-    width: 82%;
+    width: 62%;
     display: flex;
     left: 0%;
     align-items: center;
@@ -15,19 +15,19 @@
     display: none;
   }
   header nav .right {
-    width: 40%;
+    width: 25%;
   }
   header nav .right a .sign,
   header nav .right a .login {
     display: none;
   }
 
-  header nav .right a .fa-solid {
+  header nav .right a .fa-bars {
     display: inline-block;
     font-size: 28px;
     cursor: pointer;
     color: gray;
-    width: 90%;
+    width: 50%;
   }
   header nav .left a button {
     font-size: 20px;
