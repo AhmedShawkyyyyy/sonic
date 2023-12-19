@@ -4,7 +4,6 @@ body {
   box-sizing: content-box;
   background: #f3ffff;
   font-family: "Bricolage Grotesque", sans-serif;
-  overflow-y: hidden;
 }
 
 header nav {
