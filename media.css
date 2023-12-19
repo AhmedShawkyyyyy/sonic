@@ -15,7 +15,7 @@
     display: none;
   }
   header nav .right {
-    width: 36%;
+    width: 40%;
   }
   header nav .right a .sign,
   header nav .right a .login {
@@ -27,6 +27,7 @@
     font-size: 28px;
     cursor: pointer;
     color: gray;
+    width: 90%;
   }
   header nav .left a button {
     font-size: 20px;
