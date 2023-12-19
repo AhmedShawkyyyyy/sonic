@@ -3,7 +3,7 @@
     width: 95%;
   }
   header nav {
-    width: 55%;
+    width: 60%;
     display: flex;
     left: 0%;
     align-items: center;
@@ -46,7 +46,10 @@
     width: 95%;
   }
   body .content .card1 {
-    width: 100%;
+    width: 95%;
+  }
+  body .content .card1 h1 {
+    font-size: 45px;
   }
   body .content .card2 {
     width: 95%;
@@ -92,7 +95,10 @@
     width: 95%;
   }
   body .content .card1 {
-    width: 100%;
+    width: 95%;
+  }
+  body .content .card1 h1 {
+    font-size: 45px;
   }
   body .content .card2 {
     width: 95%;
@@ -141,6 +147,7 @@
   body .content .card1 {
     width: 45%;
   }
+
   body .content .card2 {
     width: 45%;
     height: 540px;
