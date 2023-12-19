@@ -210,7 +210,7 @@ body .content .shadow1 {
 body .content .shadow2 {
   position: absolute;
   bottom: 10px;
-  right: 0;
+  right: 10px;
   width: 404.031px;
   height: 404.031px;
   border-radius: 304.031px;
