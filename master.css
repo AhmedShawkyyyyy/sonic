@@ -45,7 +45,7 @@ header nav .left a button {
   border: none;
   background-color: transparent;
   cursor: pointer;
-  transition: 0.5s;
+  transition: 0.1s;
 }
 header nav .left a .nft:hover {
   color: darkred;
@@ -74,7 +74,7 @@ header nav .middle li a {
   color: #faf9f6;
   font-weight: 500;
   text-decoration: none;
-  transition: 0.5s;
+  transition: 0.1s;
 }
 header nav .middle li a:hover {
   color: darkred;
@@ -103,7 +103,7 @@ header nav .right a .sign {
   border: none;
   background-color: transparent;
   cursor: pointer;
-  transition: 0.5s;
+  transition: 0.1s;
 }
 header nav .right a .login {
   height: 35px;
@@ -234,11 +234,11 @@ body .content .shadow2 {
   flex-wrap: nowrap;
   justify-content: center;
   align-items: center;
-  transition: 0.5s;
+  transition: 0.1s;
   background: linear-gradient(145deg, #23282c, #1e2125);
   box-shadow: 17px 17px 23px #1a1d20, -17px -17px 23px #282d32,
     inset 5px 5px 4px #1e2226, inset -5px -5px 4px #24282c;
-  transition: 0.5s;
+  transition: 0.1s;
 }
 .dance {
   animation-name: dance;
