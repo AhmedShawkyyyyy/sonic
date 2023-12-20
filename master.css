@@ -241,7 +241,7 @@ body .content .shadow2 {
   transition: 0.5s;
 }
 .dance {
-  animation-name: change;
+  animation-name: dance;
   animation-duration: 1s;
   animation-direction: alternate;
 }
