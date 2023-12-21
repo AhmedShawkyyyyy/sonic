@@ -73,7 +73,7 @@ header nav .middle li a {
   color: black;
   font-weight: 500;
   text-decoration: none;
-  transition: 0.5s;
+  transition: 0.1s;
 }
 header nav .middle li a:hover {
   color: darkred;
@@ -102,7 +102,6 @@ header nav .right a .sign {
   border: none;
   background-color: transparent;
   cursor: pointer;
-  transition: 0.5s;
 }
 header nav .right a .login {
   height: 35px;
@@ -119,7 +118,7 @@ header nav .right a .login {
   line-height: normal;
   letter-spacing: 0.17px;
   cursor: pointer;
-  transition: 0.5s;
+  /* transition: 0.5s; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -232,11 +231,10 @@ body .content .shadow2 {
   flex-wrap: nowrap;
   justify-content: center;
   align-items: center;
-  transition: 0.5s;
+  /* transition: 0.5s; */
   box-shadow: 7px 7px 15px -10px #bbcfda, -4px -4px 13px #ffffff,
     inset 7px 7px 3px rgba(209, 217, 230, 0.35),
     inset -11px -11px 3px rgba(255, 255, 255, 0.3);
-  transition: 0.5s;
   transform: rotate(360deg);
 }
 
