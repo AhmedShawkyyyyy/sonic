@@ -45,7 +45,7 @@ header nav .left a button {
   border: none;
   background-color: transparent;
   cursor: pointer;
-  /* transition: 0.5s; */
+  transition: 0.1s;
 }
 header nav .left a .nft:hover {
   color: darkred;
