@@ -251,3 +251,63 @@ body .content .shadow2 {
     transform: scale(1.5);
   }
 }
+
+/* ###############sideBar################## */
+
+header .close {
+  display: none;
+}
+
+header .active {
+  display: block;
+  position: fixed;
+  right: 0;
+  top: 100px;
+  z-index: 261313153153131;
+  width: 0;
+  height: 65%;
+  background-color: #111;
+  color: #faf9f6;
+  box-shadow: -1px 0px 12px 1px #ff0a0a52;
+  transform: translateX(90deg);
+  transition: width 1s;
+  overflow: hidden;
+}
+
+header .active h2 {
+  font-size: 25px;
+  color: #fff;
+  width: 100%;
+  margin: 10px auto;
+  text-align: center;
+  letter-spacing: 3px;
+}
+
+header .active h2 span {
+  color: darkred;
+}
+header .active .utilities {
+  margin-top: 30px;
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+header .active .utilities a {
+  width: 100%;
+  margin-top: 20px;
+  margin-left: 5px;
+  color: #fff;
+  transition: 0.5s;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  text-decoration: none;
+}
+header .active .utilities a:hover {
+  color: darkred;
+}
+header .active .utilities a i {
+  padding-right: 10px;
+}
